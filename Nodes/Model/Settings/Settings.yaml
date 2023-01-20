@@ -1,0 +1,18 @@
+Name: Settings
+Id: g=17fe743e3c6351205f3ffbaa54b5ddcd
+Type: FolderType
+Children:
+- Name: ComPort
+  Id: g=c819d64f3de3c09171f11f9f46f42469
+  Type: BaseObjectType
+  Children:
+  - Name: PortName
+    Id: g=4e75412453ee9d4e5f31ff2acf0c33b6
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "COM1"
+  - Name: Speed
+    Id: g=ca8625a6c87967f2986e8d042c23510e
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 9600

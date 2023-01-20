@@ -9,8 +9,37 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [30,2],
     "Body": [
-     "","en-US"
+     "","en-US",
+     "LoginFormLoginSuccessful","Login successful",
+     "LoginFormPasswordExpired","Password expired",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used",
+     "LoginFormAuthenticationFailed","Authentication failed",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently",
+     "LoginChangePasswordFormUserNotFound","User not found",
+     "LoginChangePasswordFormPasswordTooShort","Password too short",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation",
+     "Groups","Groups",
+     "PasswordChangedTooRecently","Password changed too recently",
+     "Locale:","Locale:",
+     "Create","Create",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username",
+     "Delete","Delete",
+     "Apply","Apply",
+     "Cancel","Cancel",
+     "Name","Name",
+     "UnableToGetUsers","Unable to get users",
+     "UserNotFound","User not found",
+     "PasswordAlreadyUsed","Password already used in the past",
+     "PasswordTooShort","Password too short",
+     "UnsupportedOperation","Unsupported operation",
+     "ChangesAppliedSuccessfully","Changes applied successfully",
+     "UsernameAlreadyExists","Username already exists",
+     "Serial port communication status","Serial port communication status",
+     "Failed","Failed",
+     "Success","Success"
     ]
    }

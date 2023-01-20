@@ -1,0 +1,8 @@
+Name: SerialData
+Type: FolderType
+Children:
+- Name: Position
+  Id: g=33d645fda815a16ecc3fc6bb4229b591
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

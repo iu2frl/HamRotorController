@@ -1,2 +1,13 @@
 Name: NetLogic
 Type: FolderType
+Children:
+- Name: ComPortsList
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GetPortsList
+- Name: ComPortData
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: RestartComm

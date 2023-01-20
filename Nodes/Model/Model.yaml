@@ -1,2 +1,6 @@
 Name: Model
 Type: FolderType
+Children:
+- File: ComPorts/ComPorts.yaml
+- File: Settings/Settings.yaml
+- File: SerialData/SerialData.yaml

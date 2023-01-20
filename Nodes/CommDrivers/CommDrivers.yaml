@@ -1,2 +1,79 @@
 Name: CommDrivers
 Type: FolderType
+Children:
+- Name: SerialPort1
+  Id: g=6a5e6a12877cc2ef69fb89809b1713ce
+  Type: SerialPort
+  Children:
+  - Name: PortName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "COM1"
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Settings/ComPort/PortName"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Baudrate
+    Id: g=ee811738344562b72232c9ae064eb50a
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 9600
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../Baudrate"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: DataSize
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 8
+  - Name: Parity
+    Type: BaseDataVariableType
+    DataType: Parity
+    Value: 0
+  - Name: StopBits
+    Type: BaseDataVariableType
+    DataType: StopBits
+    Value: 0
+  - Name: FlowControl
+    Type: BaseDataVariableType
+    DataType: FlowControl
+    Value: 0
+  - Name: Timeout
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:5.0000000"
+  - Name: CommunicationStatus
+    Type: BaseDataVariableType
+    DataType: CommunicationStatus
+    AccessLevel: Read
+    Value: 0
+  - Class: Reference
+    Target: ns=19;i=9
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=10
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=11
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=14
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=17
+    Direction: Forward
+  - Class: Reference
+    Target: ns=19;i=22
+    Direction: Forward
